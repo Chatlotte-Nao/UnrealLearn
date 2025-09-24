@@ -1,0 +1,22 @@
+C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\Definitions.CPlusTutorial.h
+C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Source\CPlusTutorial\CPlusTutorialGameMode.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Inc\CPlusTutorial\CPlusTutorialGameMode.generated.h
+C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Source\CPlusTutorial\CPlusTutorialHUD.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Inc\CPlusTutorial\CPlusTutorialHUD.generated.h
+C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Source\CPlusTutorial\CPlusTutorialCharacter.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Inc\CPlusTutorial\CPlusTutorialCharacter.generated.h

@@ -1,0 +1,7 @@
+C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\Definitions.CPlusTutorial.h
+C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Source\CPlusTutorial\MyActor.h
+C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Inc\CPlusTutorial\MyActor.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CPlusTutorial.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{5A6B9BF6-C31A-428A-9AC2-185C6B69570A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CPlusTutorial.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CPlusTutorialEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\CPlusTutorial.sln.DotSettings.user" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{F28058A4-EADD-4960-845E-CC2618FDF51E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CPlusTutorial">
+      <UniqueIdentifier>{B735CD77-31C1-4E61-9738-AC807EAD2843}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CPlusTutorial\CPlusTutorial.Build.cs">
+      <Filter>Source\CPlusTutorial</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CPlusTutorial\CPlusTutorial.cpp">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPlusTutorial\CPlusTutorial.h">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPlusTutorial\CPlusTutorialCharacter.cpp">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPlusTutorial\CPlusTutorialCharacter.h">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPlusTutorial\CPlusTutorialGameMode.cpp">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPlusTutorial\CPlusTutorialGameMode.h">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPlusTutorial\CPlusTutorialHUD.cpp">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPlusTutorial\CPlusTutorialHUD.h">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPlusTutorial\CPlusTutorialProjectile.cpp">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPlusTutorial\CPlusTutorialProjectile.h">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPlusTutorial\FinishLine.cpp">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPlusTutorial\FinishLine.h">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPlusTutorial\MyActor.cpp">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPlusTutorial\MyActor.h">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
