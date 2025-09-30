@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\MyProject\\UniFrameSync\\UEPROJect\\CPlusTutorial\\Source\\CPlusTutorial\\CPlusTutorial.Build.cs",
-		"C:\\MyProject\\UniFrameSync\\UEPROJect\\CPlusTutorial\\Source\\CPlusTutorial.Target.cs",
-		"C:\\MyProject\\UniFrameSync\\UEPROJect\\CPlusTutorial\\Source\\CPlusTutorialEditor.Target.cs"
+		"C:\\UEProject\\UnrealLearn\\CPlusTutorial\\Source\\CPlusTutorial\\CPlusTutorial.Build.cs",
+		"C:\\UEProject\\UnrealLearn\\CPlusTutorial\\Source\\CPlusTutorial.Target.cs",
+		"C:\\UEProject\\UnrealLearn\\CPlusTutorial\\Source\\CPlusTutorialEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }

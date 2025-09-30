@@ -5,6 +5,7 @@
 
 #include "Components/BoxComponent.h"
 #include "GameFramework/Character.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AFinishLine::AFinishLine()
@@ -36,7 +37,8 @@ void AFinishLine::TriggerEnter(UPrimitiveComponent* OverlappedComp, AActor* Othe
 {
 	if (OtherActor->IsA(ACharacter::StaticClass()))
 	{
-		//OtherActor->PlaySoundAtLocation()
+		UE_LOG(LogTemp,Warning,TEXT("jiancedao"));
+		UGameplayStatics::PlaySoundAtLocation(this,MySound,OtherActor->GetActorLocation());
 	}
 }
 

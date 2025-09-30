@@ -231,8 +231,8 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Inc\CPlusTutorial
-/I C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Source
+/I C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Inc\CPlusTutorial
+/I C:\UEProject\UnrealLearn\CPlusTutorial\Source
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MRMesh
@@ -266,12 +266,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt"
-/FI"C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\CPlusTutorialEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\CPlusTutorialEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\CPlusTutorialEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Source\CPlusTutorial\CPlusTutorialHUD.cpp"
-/FI"C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\Definitions.CPlusTutorial.h"
-/Fo"C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\CPlusTutorialHUD.cpp.obj"
+/FI"C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\CPlusTutorialEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\CPlusTutorialEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\CPlusTutorialEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\UEProject\UnrealLearn\CPlusTutorial\Source\CPlusTutorial\CPlusTutorialHUD.cpp"
+/FI"C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\Definitions.CPlusTutorial.h"
+/Fo"C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\CPlusTutorialHUD.cpp.obj"
 /TP
 /GR-
 /W4

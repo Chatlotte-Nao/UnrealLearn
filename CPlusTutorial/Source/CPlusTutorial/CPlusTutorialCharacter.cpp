@@ -113,10 +113,13 @@ void ACPlusTutorialCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	// set up gameplay key bindings
 	check(PlayerInputComponent);
 
+	PlayerInputComponent->BindAction("Sprint",IE_Pressed,this,&ACPlusTutorialCharacter::BeginSprint);
+	PlayerInputComponent->BindAction("Sprint",IE_Released,this,&ACPlusTutorialCharacter::EndSprint);
+
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
-
+	
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ACPlusTutorialCharacter::OnFire);
 
@@ -258,8 +261,10 @@ void ACPlusTutorialCharacter::MoveForward(float Value)
 {
 	if (Value != 0.0f)
 	{
+		if (bIsSprinting)
+			Value*=2;
 		// add movement in that direction
-		AddMovementInput(GetActorForwardVector(), Value);
+		AddMovementInput(GetActorForwardVector(), Value/2);
 	}
 }
 
@@ -267,9 +272,23 @@ void ACPlusTutorialCharacter::MoveRight(float Value)
 {
 	if (Value != 0.0f)
 	{
+		if (bIsSprinting)
+			Value*=2;
 		// add movement in that direction
-		AddMovementInput(GetActorRightVector(), Value);
+		AddMovementInput(GetActorRightVector(), Value/2);
 	}
+}
+
+void ACPlusTutorialCharacter::BeginSprint()
+{
+	bIsSprinting=true;
+	GEngine->AddOnScreenDebugMessage(-1,5.f,FColor::Red,TEXT( "You are Sprinting" ));
+}
+
+void ACPlusTutorialCharacter::EndSprint()
+{
+	bIsSprinting=false;
+	GEngine->AddOnScreenDebugMessage(-1,5.f,FColor::Red,TEXT( "You are no longer Sprinting" ));
 }
 
 void ACPlusTutorialCharacter::TurnAtRate(float Rate)

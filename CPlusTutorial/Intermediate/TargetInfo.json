@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "CPlusTutorial",
-			"Path": "C:\\MyProject\\UniFrameSync\\UEPROJect\\CPlusTutorial\\Source\\CPlusTutorial.Target.cs",
+			"Path": "C:\\UEProject\\UnrealLearn\\CPlusTutorial\\Source\\CPlusTutorial.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "CPlusTutorialEditor",
-			"Path": "C:\\MyProject\\UniFrameSync\\UEPROJect\\CPlusTutorial\\Source\\CPlusTutorialEditor.Target.cs",
+			"Path": "C:\\UEProject\\UnrealLearn\\CPlusTutorial\\Source\\CPlusTutorialEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

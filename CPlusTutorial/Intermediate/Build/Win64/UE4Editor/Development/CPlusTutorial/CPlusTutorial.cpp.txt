@@ -1,2 +1,2 @@
-C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\Definitions.CPlusTutorial.h
-C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Source\CPlusTutorial\CPlusTutorial.h
+C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\Definitions.CPlusTutorial.h
+C:\UEProject\UnrealLearn\CPlusTutorial\Source\CPlusTutorial\CPlusTutorial.h

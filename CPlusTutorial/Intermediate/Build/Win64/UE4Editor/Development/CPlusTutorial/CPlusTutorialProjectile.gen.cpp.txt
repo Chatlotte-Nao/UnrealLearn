@@ -1,5 +1,5 @@
-C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\Definitions.CPlusTutorial.h
+C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\Definitions.CPlusTutorial.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Source\CPlusTutorial/CPlusTutorialProjectile.h
-C:\MyProject\UniFrameSync\UEPROJect\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Inc\CPlusTutorial\CPlusTutorialProjectile.generated.h
+C:\UEProject\UnrealLearn\CPlusTutorial\Source\CPlusTutorial/CPlusTutorialProjectile.h
+C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Inc\CPlusTutorial\CPlusTutorialProjectile.generated.h

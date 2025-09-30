@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeFinishLine() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UShapeComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_USoundCue_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AFinishLine::execTriggerEnter)
 	{
@@ -175,7 +175,7 @@ void EmptyLinkFunctionForGeneratedCodeFinishLine() {}
 		{ "ModuleRelativePath", "FinishLine.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFinishLine_Statics::NewProp_MySound = { "MySound", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFinishLine, MySound), Z_Construct_UClass_USoundCue_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFinishLine_Statics::NewProp_MySound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFinishLine_Statics::NewProp_MySound_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFinishLine_Statics::NewProp_MySound = { "MySound", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFinishLine, MySound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFinishLine_Statics::NewProp_MySound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFinishLine_Statics::NewProp_MySound_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFinishLine_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFinishLine_Statics::NewProp_FinishLineBox,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFinishLine_Statics::NewProp_MySound,
@@ -207,7 +207,7 @@ void EmptyLinkFunctionForGeneratedCodeFinishLine() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFinishLine, 1421526482);
+	IMPLEMENT_CLASS(AFinishLine, 435562581);
 	template<> CPLUSTUTORIAL_API UClass* StaticClass<AFinishLine>()
 	{
 		return AFinishLine::StaticClass();
