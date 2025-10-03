@@ -110,7 +110,7 @@ protected:
 
 	void EndPickUp();
 
-	bool bIsPickingUp=false;
+	
 
 	void ShowInventory();
 
@@ -157,7 +157,7 @@ public:
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
-
+	bool bIsPickingUp=false;
 	TArray<FString> Inventory;
 };
 

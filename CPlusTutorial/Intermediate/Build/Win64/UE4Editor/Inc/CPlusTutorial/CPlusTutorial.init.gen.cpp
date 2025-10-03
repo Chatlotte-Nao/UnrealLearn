@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeCPlusTutorial_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xBE9E1083,
+				0x40B59D26,
 				0xAE35208B,
 				METADATA_PARAMS(nullptr, 0)
 			};
