@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\CPlusTutorialEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\CameraUtility.cpp.obj"
 "C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\CPlusTutorial.cpp.obj"
 "C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\CPlusTutorialCharacter.cpp.obj"
 "C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\CPlusTutorialGameMode.cpp.obj"
@@ -14,6 +15,7 @@
 "C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\CPlusTutorialProjectile.cpp.obj"
 "C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\FinishLine.cpp.obj"
 "C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\MyActor.cpp.obj"
+"C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\CameraUtility.gen.cpp.obj"
 "C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\CPlusTutorial.init.gen.cpp.obj"
 "C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\CPlusTutorialCharacter.gen.cpp.obj"
 "C:\UEProject\UnrealLearn\CPlusTutorial\Intermediate\Build\Win64\UE4Editor\Development\CPlusTutorial\CPlusTutorialGameMode.gen.cpp.obj"

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CPlusTutorial.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C1CE2DC4-AF37-4D24-A58B-E66CC093E463}</UniqueIdentifier>
+      <UniqueIdentifier>{9AA31C9A-E023-494C-9CDA-674AC7219EFC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CPlusTutorial.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\CPlusTutorial.sln.DotSettings.user" />
     <Filter Include="Config">
-      <UniqueIdentifier>{41EC862F-3D70-4589-8D5D-6B85F028F3B4}</UniqueIdentifier>
+      <UniqueIdentifier>{538871F4-6870-4DF2-A45D-B083EEF89CD1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CPlusTutorial">
-      <UniqueIdentifier>{4F6D5AC0-07C8-477F-8509-36E29EAC6C5F}</UniqueIdentifier>
+      <UniqueIdentifier>{6E450BF8-DA8F-410D-A8F9-BE506D11D766}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\CPlusTutorial\CameraUtility.cpp">
       <Filter>Source\CPlusTutorial</Filter>
@@ -76,6 +76,12 @@
       <Filter>Source\CPlusTutorial</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CPlusTutorial\FinishLine.h">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPlusTutorial\Item.cpp">
+      <Filter>Source\CPlusTutorial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPlusTutorial\Item.h">
       <Filter>Source\CPlusTutorial</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\CPlusTutorial\MyActor.cpp">

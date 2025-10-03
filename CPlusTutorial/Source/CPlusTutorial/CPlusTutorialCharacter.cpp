@@ -116,6 +116,11 @@ void ACPlusTutorialCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	PlayerInputComponent->BindAction("Sprint",IE_Pressed,this,&ACPlusTutorialCharacter::BeginSprint);
 	PlayerInputComponent->BindAction("Sprint",IE_Released,this,&ACPlusTutorialCharacter::EndSprint);
 
+	PlayerInputComponent->BindAction("PickUp",IE_Pressed,this,&ACPlusTutorialCharacter::BeginPickUp);
+	PlayerInputComponent->BindAction("PickUp",IE_Released,this,&ACPlusTutorialCharacter::EndPickUp);
+
+	PlayerInputComponent->BindAction("ShowInventory",IE_Pressed,this,&ACPlusTutorialCharacter::ShowInventory);
+
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
@@ -289,6 +294,23 @@ void ACPlusTutorialCharacter::EndSprint()
 {
 	bIsSprinting=false;
 	GEngine->AddOnScreenDebugMessage(-1,5.f,FColor::Red,TEXT( "You are no longer Sprinting" ));
+}
+
+void ACPlusTutorialCharacter::BeginPickUp()
+{
+	bIsPickingUp=true;
+	GEngine->AddOnScreenDebugMessage(-1,5.f,FColor::Blue,TEXT( "BeginPickUp" ));
+}
+
+void ACPlusTutorialCharacter::EndPickUp()
+{
+	bIsPickingUp=false;
+	GEngine->AddOnScreenDebugMessage(-1,5.f,FColor::Blue,TEXT( "EndPickUp" ));
+}
+
+void ACPlusTutorialCharacter::ShowInventory()
+{
+	GEngine->AddOnScreenDebugMessage(-1,5.f,FColor::Blue,TEXT( "This is Our inventory" ));
 }
 
 void ACPlusTutorialCharacter::TurnAtRate(float Rate)
