@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"D:\\LearnData\\UnrealProject\\UnrealLearn\\CPlusTutorial\\Source\\CPlusTutorial\\CPlusTutorial.Build.cs",
-		"D:\\LearnData\\UnrealProject\\UnrealLearn\\CPlusTutorial\\Source\\CPlusTutorial.Target.cs",
-		"D:\\LearnData\\UnrealProject\\UnrealLearn\\CPlusTutorial\\Source\\CPlusTutorialEditor.Target.cs"
-	],
-	"EngineVersion": "4.27.2"
-}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "StealthGame",
+			"Path": "C:\\UEProject\\UnrealLearn\\StealthGame\\Source\\StealthGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "StealthGameEditor",
+			"Path": "C:\\UEProject\\UnrealLearn\\StealthGame\\Source\\StealthGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
