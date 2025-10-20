@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "AIPatrol.generated.h"
 
+class UBehaviorTree;
+
 UCLASS()
 class STEALTHGAME_API AAIPatrol : public ACharacter
 {
@@ -26,4 +28,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY(EditAnywhere,Category=AI)
+	UBehaviorTree* BehaviorTree;
+	
 };

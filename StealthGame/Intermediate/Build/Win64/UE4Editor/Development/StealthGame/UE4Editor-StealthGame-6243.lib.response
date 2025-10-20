@@ -8,10 +8,12 @@
 /NODEFAULTLIB
 "C:\UEProject\UnrealLearn\StealthGame\Intermediate\Build\Win64\StealthGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\UEProject\UnrealLearn\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\AIPatrol.cpp.obj"
+"C:\UEProject\UnrealLearn\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\AIPatrolController.cpp.obj"
 "C:\UEProject\UnrealLearn\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\StealthGame.cpp.obj"
 "C:\UEProject\UnrealLearn\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\StealthGameCharacter.cpp.obj"
 "C:\UEProject\UnrealLearn\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\StealthGameGameMode.cpp.obj"
 "C:\UEProject\UnrealLearn\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\AIPatrol.gen.cpp.obj"
+"C:\UEProject\UnrealLearn\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\AIPatrolController.gen.cpp.obj"
 "C:\UEProject\UnrealLearn\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\StealthGame.init.gen.cpp.obj"
 "C:\UEProject\UnrealLearn\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\StealthGameCharacter.gen.cpp.obj"
 "C:\UEProject\UnrealLearn\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\StealthGame\StealthGameGameMode.gen.cpp.obj"
