@@ -17,10 +17,57 @@ void EmptyLinkFunctionForGeneratedCodeAIPatrol() {}
 	STEALTHGAME_API UClass* Z_Construct_UClass_AAIPatrol();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_StealthGame();
+	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
+	AIMODULE_API UClass* Z_Construct_UClass_UPawnSensingComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AAIPatrol::execOnPlayerCaught)
+	{
+		P_GET_OBJECT(APawn,Z_Param_Pawn);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnPlayerCaught(Z_Param_Pawn);
+		P_NATIVE_END;
+	}
 	void AAIPatrol::StaticRegisterNativesAAIPatrol()
 	{
+		UClass* Class = AAIPatrol::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "OnPlayerCaught", &AAIPatrol::execOnPlayerCaught },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AAIPatrol_OnPlayerCaught_Statics
+	{
+		struct AIPatrol_eventOnPlayerCaught_Parms
+		{
+			APawn* Pawn;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Pawn;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AAIPatrol_OnPlayerCaught_Statics::NewProp_Pawn = { "Pawn", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIPatrol_eventOnPlayerCaught_Parms, Pawn), Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AAIPatrol_OnPlayerCaught_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAIPatrol_OnPlayerCaught_Statics::NewProp_Pawn,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAIPatrol_OnPlayerCaught_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "AIPatrol.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAIPatrol_OnPlayerCaught_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAIPatrol, nullptr, "OnPlayerCaught", nullptr, nullptr, sizeof(AIPatrol_eventOnPlayerCaught_Parms), Z_Construct_UFunction_AAIPatrol_OnPlayerCaught_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AAIPatrol_OnPlayerCaught_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAIPatrol_OnPlayerCaught_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AAIPatrol_OnPlayerCaught_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAIPatrol_OnPlayerCaught()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAIPatrol_OnPlayerCaught_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AAIPatrol_NoRegister()
 	{
@@ -29,6 +76,7 @@ void EmptyLinkFunctionForGeneratedCodeAIPatrol() {}
 	struct Z_Construct_UClass_AAIPatrol_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -36,6 +84,10 @@ void EmptyLinkFunctionForGeneratedCodeAIPatrol() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BehaviorTree_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BehaviorTree;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PawnSensingComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PawnSensingComp;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -43,6 +95,9 @@ void EmptyLinkFunctionForGeneratedCodeAIPatrol() {}
 	UObject* (*const Z_Construct_UClass_AAIPatrol_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_StealthGame,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AAIPatrol_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AAIPatrol_OnPlayerCaught, "OnPlayerCaught" }, // 4088019090
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAIPatrol_Statics::Class_MetaDataParams[] = {
@@ -58,8 +113,17 @@ void EmptyLinkFunctionForGeneratedCodeAIPatrol() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAIPatrol_Statics::NewProp_BehaviorTree = { "BehaviorTree", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAIPatrol, BehaviorTree), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAIPatrol_Statics::NewProp_BehaviorTree_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAIPatrol_Statics::NewProp_BehaviorTree_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAIPatrol_Statics::NewProp_PawnSensingComp_MetaData[] = {
+		{ "Category", "AI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "AIPatrol.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAIPatrol_Statics::NewProp_PawnSensingComp = { "PawnSensingComp", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAIPatrol, PawnSensingComp), Z_Construct_UClass_UPawnSensingComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAIPatrol_Statics::NewProp_PawnSensingComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAIPatrol_Statics::NewProp_PawnSensingComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAIPatrol_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAIPatrol_Statics::NewProp_BehaviorTree,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAIPatrol_Statics::NewProp_PawnSensingComp,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAIPatrol_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AAIPatrol>::IsAbstract,
@@ -69,11 +133,11 @@ void EmptyLinkFunctionForGeneratedCodeAIPatrol() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AAIPatrol_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AAIPatrol_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -88,7 +152,7 @@ void EmptyLinkFunctionForGeneratedCodeAIPatrol() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAIPatrol, 1087927070);
+	IMPLEMENT_CLASS(AAIPatrol, 1638823609);
 	template<> STEALTHGAME_API UClass* StaticClass<AAIPatrol>()
 	{
 		return AAIPatrol::StaticClass();

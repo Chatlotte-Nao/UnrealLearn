@@ -8,15 +8,24 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class APawn;
 #ifdef STEALTHGAME_AIPatrol_generated_h
 #error "AIPatrol.generated.h already included, missing '#pragma once' in AIPatrol.h"
 #endif
 #define STEALTHGAME_AIPatrol_generated_h
 
-#define StealthGame_Source_StealthGame_AIPatrol_h_14_SPARSE_DATA
-#define StealthGame_Source_StealthGame_AIPatrol_h_14_RPC_WRAPPERS
-#define StealthGame_Source_StealthGame_AIPatrol_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define StealthGame_Source_StealthGame_AIPatrol_h_14_INCLASS_NO_PURE_DECLS \
+#define StealthGame_Source_StealthGame_AIPatrol_h_15_SPARSE_DATA
+#define StealthGame_Source_StealthGame_AIPatrol_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnPlayerCaught);
+
+
+#define StealthGame_Source_StealthGame_AIPatrol_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnPlayerCaught);
+
+
+#define StealthGame_Source_StealthGame_AIPatrol_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAIPatrol(); \
 	friend struct Z_Construct_UClass_AAIPatrol_Statics; \
@@ -25,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AAIPatrol)
 
 
-#define StealthGame_Source_StealthGame_AIPatrol_h_14_INCLASS \
+#define StealthGame_Source_StealthGame_AIPatrol_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAAIPatrol(); \
 	friend struct Z_Construct_UClass_AAIPatrol_Statics; \
@@ -34,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(AAIPatrol)
 
 
-#define StealthGame_Source_StealthGame_AIPatrol_h_14_STANDARD_CONSTRUCTORS \
+#define StealthGame_Source_StealthGame_AIPatrol_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAIPatrol(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAIPatrol) \
@@ -47,7 +56,7 @@ private: \
 public:
 
 
-#define StealthGame_Source_StealthGame_AIPatrol_h_14_ENHANCED_CONSTRUCTORS \
+#define StealthGame_Source_StealthGame_AIPatrol_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAIPatrol(AAIPatrol&&); \
@@ -58,28 +67,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAIPatrol)
 
 
-#define StealthGame_Source_StealthGame_AIPatrol_h_14_PRIVATE_PROPERTY_OFFSET
-#define StealthGame_Source_StealthGame_AIPatrol_h_11_PROLOG
-#define StealthGame_Source_StealthGame_AIPatrol_h_14_GENERATED_BODY_LEGACY \
+#define StealthGame_Source_StealthGame_AIPatrol_h_15_PRIVATE_PROPERTY_OFFSET
+#define StealthGame_Source_StealthGame_AIPatrol_h_12_PROLOG
+#define StealthGame_Source_StealthGame_AIPatrol_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StealthGame_Source_StealthGame_AIPatrol_h_14_PRIVATE_PROPERTY_OFFSET \
-	StealthGame_Source_StealthGame_AIPatrol_h_14_SPARSE_DATA \
-	StealthGame_Source_StealthGame_AIPatrol_h_14_RPC_WRAPPERS \
-	StealthGame_Source_StealthGame_AIPatrol_h_14_INCLASS \
-	StealthGame_Source_StealthGame_AIPatrol_h_14_STANDARD_CONSTRUCTORS \
+	StealthGame_Source_StealthGame_AIPatrol_h_15_PRIVATE_PROPERTY_OFFSET \
+	StealthGame_Source_StealthGame_AIPatrol_h_15_SPARSE_DATA \
+	StealthGame_Source_StealthGame_AIPatrol_h_15_RPC_WRAPPERS \
+	StealthGame_Source_StealthGame_AIPatrol_h_15_INCLASS \
+	StealthGame_Source_StealthGame_AIPatrol_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define StealthGame_Source_StealthGame_AIPatrol_h_14_GENERATED_BODY \
+#define StealthGame_Source_StealthGame_AIPatrol_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StealthGame_Source_StealthGame_AIPatrol_h_14_PRIVATE_PROPERTY_OFFSET \
-	StealthGame_Source_StealthGame_AIPatrol_h_14_SPARSE_DATA \
-	StealthGame_Source_StealthGame_AIPatrol_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	StealthGame_Source_StealthGame_AIPatrol_h_14_INCLASS_NO_PURE_DECLS \
-	StealthGame_Source_StealthGame_AIPatrol_h_14_ENHANCED_CONSTRUCTORS \
+	StealthGame_Source_StealthGame_AIPatrol_h_15_PRIVATE_PROPERTY_OFFSET \
+	StealthGame_Source_StealthGame_AIPatrol_h_15_SPARSE_DATA \
+	StealthGame_Source_StealthGame_AIPatrol_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	StealthGame_Source_StealthGame_AIPatrol_h_15_INCLASS_NO_PURE_DECLS \
+	StealthGame_Source_StealthGame_AIPatrol_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

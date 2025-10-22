@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "AIPatrol.generated.h"
 
+class UPawnSensingComponent;
 class UBehaviorTree;
 
 UCLASS()
@@ -30,5 +31,11 @@ public:
 
 	UPROPERTY(EditAnywhere,Category=AI)
 	UBehaviorTree* BehaviorTree;
-	
+
+	UPROPERTY(VisibleAnywhere,Category=AI)
+	UPawnSensingComponent* PawnSensingComp;
+
+private:
+	UFUNCTION()
+	void OnPlayerCaught(APawn* Pawn);
 };

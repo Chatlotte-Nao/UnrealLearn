@@ -28,12 +28,15 @@ class STEALTHGAME_API AAIPatrolController : public AAIController
 
 	TArray<AActor*> PatrolPoints;
 
-	virtual void OnPossess (APawn* Pawn) override;
-	
+	virtual void OnPossess (APawn* InPawn) override;
+
+	int32 CurrentPatrolPoint=0;
 
 public:
 	AAIPatrolController();
 
+	void SetPlayerCaught(APawn* BPawn);
+	
 	FORCEINLINE UBlackboardComponent* GetBlackboardComp() const { return BlackboardComp; }
 	FORCEINLINE TArray<AActor*> GetPatrolPoints() const { return PatrolPoints; }
 

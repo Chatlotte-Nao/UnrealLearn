@@ -4,8 +4,10 @@
 #include "AIPatrolController.h"
 
 #include "AIPatrol.h"
+#include "AIPatrolTargetPoint.h"
 #include "BehaviorTree/BehaviorTree.h"
 #include "BehaviorTree/BlackboardComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 AAIPatrolController::AAIPatrolController()
 {
@@ -14,19 +16,29 @@ AAIPatrolController::AAIPatrolController()
 
 	PlayerKey="Target";
 	LocationToGoKey="LocationToGo";
-	
+	CurrentPatrolPoint=0;
 }
 
-void AAIPatrolController::OnPossess(APawn* Pawn)
+void AAIPatrolController::SetPlayerCaught(APawn* BPawn)
 {
-	Super::OnPossess(Pawn);
+	if (BlackboardComp)
+	{
+		BlackboardComp->SetValueAsObject(PlayerKey,BPawn);
+	}
+}
 
-	AAIPatrol* AICharacter = Cast<AAIPatrol>(Pawn);
+void AAIPatrolController::OnPossess(APawn* InPawn)
+{
+	Super::OnPossess(InPawn);
+
+	AAIPatrol* AICharacter = Cast<AAIPatrol>(InPawn);
 	if (AICharacter)
 	{
 		if (AICharacter->BehaviorTree->BlackboardAsset)
 		{
 			BlackboardComp->InitializeBlackboard(*(AICharacter->BehaviorTree->BlackboardAsset));
 		}
+		UGameplayStatics::GetAllActorsOfClass(GetWorld(),AAIPatrolTargetPoint::StaticClass(),PatrolPoints);
+		BehaviorComp->StartTree(*AICharacter->BehaviorTree);
 	}
 }
