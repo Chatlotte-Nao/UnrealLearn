@@ -30,9 +30,12 @@ class STEALTHGAME_API AAIPatrolController : public AAIController
 
 	virtual void OnPossess (APawn* InPawn) override;
 
-	int32 CurrentPatrolPoint=0;
+	
 
 public:
+
+	int32 CurrentPatrolPoint=0;
+	
 	AAIPatrolController();
 
 	void SetPlayerCaught(APawn* BPawn);
