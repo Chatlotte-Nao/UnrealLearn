@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\StealthGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8B6DD468-F1B6-4760-A403-998223AA5439}</UniqueIdentifier>
+      <UniqueIdentifier>{B2977261-8349-49C5-A5EF-377D5DBBE09D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\StealthGame.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\UE.txt" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F3301A1D-85AE-4533-8425-C55725B572DD}</UniqueIdentifier>
+      <UniqueIdentifier>{12E9466A-9364-4856-9EB8-050648674778}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\StealthGame">
-      <UniqueIdentifier>{81FB16BC-04D9-4452-9CC8-7EDED9F5F8B6}</UniqueIdentifier>
+      <UniqueIdentifier>{A5927610-FA6E-4405-904D-C2B484B20DC7}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\StealthGame\AIPatrol.cpp">
       <Filter>Source\StealthGame</Filter>
@@ -49,6 +49,12 @@
       <Filter>Source\StealthGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\StealthGame\AIPatrolTargetPoint.h">
+      <Filter>Source\StealthGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\StealthGame\BTSelectPatrolPoint.cpp">
+      <Filter>Source\StealthGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\StealthGame\BTSelectPatrolPoint.h">
       <Filter>Source\StealthGame</Filter>
     </ClInclude>
     <None Include="..\..\Source\StealthGame\StealthGame.Build.cs">
