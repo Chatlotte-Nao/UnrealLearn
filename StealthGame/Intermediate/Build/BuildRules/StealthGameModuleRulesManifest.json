@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\UEProject\\UnrealLearn\\StealthGame\\Source\\StealthGame\\StealthGame.Build.cs",
-		"C:\\UEProject\\UnrealLearn\\StealthGame\\Source\\StealthGame.Target.cs",
-		"C:\\UEProject\\UnrealLearn\\StealthGame\\Source\\StealthGameEditor.Target.cs"
-	],
-	"EngineVersion": "4.27.2"
-}
