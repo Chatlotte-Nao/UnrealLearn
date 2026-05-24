@@ -1,0 +1,5 @@
+D:\LearnData\UnrealProject\UnrealLearn\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\Definitions.MyProject.h
+D:\LearnData\UnrealProject\UnrealLearn\MyProject\Source\MyProject\MyActor.h
+D:\LearnData\UnrealProject\UnrealLearn\MyProject\Source\MyProject\MyInterface.h
+D:\LearnData\UnrealProject\UnrealLearn\MyProject\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\MyInterface.generated.h
+D:\LearnData\UnrealProject\UnrealLearn\MyProject\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\MyActor.generated.h
