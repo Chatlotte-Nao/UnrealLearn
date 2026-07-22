@@ -1,2 +1,0 @@
-D:\LearnData\UnrealProject\UnrealLearn\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\Definitions.MyProject.h
-D:\LearnData\UnrealProject\UnrealLearn\MyProject\Source\MyProject\MyProject.h
