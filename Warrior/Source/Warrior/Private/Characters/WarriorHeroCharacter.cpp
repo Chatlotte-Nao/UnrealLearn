@@ -31,6 +31,11 @@ AWarriorHeroCharacter::AWarriorHeroCharacter()
 	GetCharacterMovement()->BrakingDecelerationWalking=2000.f;
 }
 
+void AWarriorHeroCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+	ULocalPlayer* LocalPlayer = GetController<APlayerController>()->GetLocalPlayer();
+}
+
 void AWarriorHeroCharacter::BeginPlay()
 {
 	Super::BeginPlay();

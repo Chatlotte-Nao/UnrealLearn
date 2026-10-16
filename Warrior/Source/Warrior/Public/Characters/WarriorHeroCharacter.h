@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Characters/WarriorBaseCharacter.h"
+#include "DataAssets/Input/DataAsset_InputConfig.h"
 #include "WarriorHeroCharacter.generated.h"
 
 class USpringArmComponent;
@@ -19,6 +20,7 @@ class WARRIOR_API AWarriorHeroCharacter : public AWarriorBaseCharacter
 public:
 	AWarriorHeroCharacter();
 protected:
+	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
 	virtual void BeginPlay() override;
 	
 private:
@@ -32,4 +34,8 @@ private:
 	UCameraComponent* FollowCamera;
 	
 #pragma endregion
+	
+	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="CharacterData",meta=(AllowPrivateAccess="true"))
+	UDataAsset_InputConfig* InputConfigDataAsset;
+	
 };
