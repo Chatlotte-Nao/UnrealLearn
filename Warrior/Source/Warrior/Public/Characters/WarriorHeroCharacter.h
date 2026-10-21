@@ -7,6 +7,7 @@
 #include "DataAssets/Input/DataAsset_InputConfig.h"
 #include "WarriorHeroCharacter.generated.h"
 
+struct FInputActionValue;
 class USpringArmComponent;
 class UCameraComponent;
 /**
@@ -35,7 +36,13 @@ private:
 	
 #pragma endregion
 	
-	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="CharacterData",meta=(AllowPrivateAccess="true"))
+#pragma region Inputs
+	UPROPERTY(EditDefaultsOnly,BlueprintReadOnly,Category="CharacterData",meta=(AllowPrivateAccess="true"))
 	UDataAsset_InputConfig* InputConfigDataAsset;
+
+	void Input_Move(const FInputActionValue& InputActionValue);
+	void Input_Look(const FInputActionValue& InputActionValue);
 	
+	
+#pragma endregion 
 };
