@@ -20,7 +20,7 @@ UCLASS()
 class WARRIOR_API UWarriorGameplayAbility : public UGameplayAbility
 {
 	GENERATED_BODY()
-	
+
 protected:
 	//~ Begin UGameplayAbility Interface.
 	virtual void OnGiveAbility(const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilitySpec& Spec) override;
