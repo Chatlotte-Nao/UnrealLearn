@@ -1,8 +1,0 @@
-此英文翻译版本来自：
-https://dinklations.wordpress.com/2021/01/30/ruina-fairy-tale-of-the-forgotten-ruins-english-version/ 
-，为外网英译组自发翻译，在此谨作转载。
-
-英译组整合了Easyrpg（在/game 文件夹内），方便了移动端的使用。
-
-由于译者能力有限，或有疏漏及不够优美之处，亦在所难免，请不吝斧正。
-
