@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "AbilitySystemComponent.h"
+#include "WarriorTypes/WarriorStructTypes.h"
 #include "WarriorAbilitySystemComponent.generated.h"
 
 struct FWarriorHeroAbilitySet;
